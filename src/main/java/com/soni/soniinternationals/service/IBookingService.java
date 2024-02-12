@@ -4,8 +4,6 @@ import com.soni.soniinternationals.model.BookedRoom;
 
 import java.util.List;
 
-
-
 public interface IBookingService {
     void cancelBooking(Long bookingId);
 

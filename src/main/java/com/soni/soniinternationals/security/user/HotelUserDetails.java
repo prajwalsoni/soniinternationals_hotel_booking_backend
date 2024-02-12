@@ -34,10 +34,7 @@ public class HotelUserDetails implements UserDetails {
                 user.getPassword(),
                 authorities);
 
-    }
-
-
-
+    } 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return authorities;

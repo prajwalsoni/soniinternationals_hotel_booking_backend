@@ -1,13 +1,13 @@
 package com.soni.soniinternationals.controller;
 
-import com.soni.soniinternationals.exception.RoleAlreadyExistException;  
+import com.soni.soniinternationals.exception.RoleAlreadyExistException;   
 import com.soni.soniinternationals.model.Role;
 import com.soni.soniinternationals.model.User;
 import com.soni.soniinternationals.service.IRoleService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-//import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

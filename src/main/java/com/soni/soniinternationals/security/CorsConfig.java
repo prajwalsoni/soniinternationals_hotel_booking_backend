@@ -15,7 +15,7 @@ import java.util.Arrays;
 public class CorsConfig {
 
     private static final Long MAX_AGE = 3600L;
-
+ 
     @Bean
     public CorsFilter corsFilter() {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();

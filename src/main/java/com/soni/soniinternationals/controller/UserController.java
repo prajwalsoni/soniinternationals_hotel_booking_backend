@@ -1,6 +1,6 @@
 package com.soni.soniinternationals.controller;
 
-import com.soni.soniinternationals.model.User;   
+import com.soni.soniinternationals.model.User;    
 import com.soni.soniinternationals.service.IUserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -12,7 +12,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+ 
 
 
 @RestController
